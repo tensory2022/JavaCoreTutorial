@@ -1,5 +1,7 @@
 package streamxx;
 
+
+
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -17,6 +19,7 @@ public class StreamAPIDemo {
     /**
      * How to create a stream? —— .stream()
      */
+
     @Test
     public void testCreateAndReturnStream() {
         List<String> list =
@@ -40,6 +43,7 @@ public class StreamAPIDemo {
     /**
      * .map(): is a one-to-one transformation.
      */
+
     @Test
     public void stringToInteger() {
         List<String> list = Arrays.asList("10", "20", "30", "40");
